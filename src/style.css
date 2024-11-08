@@ -20,6 +20,22 @@
     opacity: 0.9;
 }
 
+.menu-add .navigation {
+    width: 40vw;
+    height: 80vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.navigation li {
+    color: #fff;
+    font-family: 'Sedan', serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
 body {
     width: 100vw;
     height: 100vh;
