@@ -22,7 +22,7 @@
 
 .menu-add .navigation {
     width: 40vw;
-    height: 80vh;
+    height: 100vh;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -34,6 +34,20 @@
     font-family: 'Sedan', serif;
     font-size: 25px;
     margin-top: 20px;
+}
+
+.navigation .style-li {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation .style-li span {
+    margin-top: 10px;
+    width: 130px;
+    height: 14rem;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    text-align: start;
 }
 
 body {
