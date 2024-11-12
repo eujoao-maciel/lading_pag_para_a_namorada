@@ -1,26 +1,18 @@
-/* 
-     <aside class="menu-add">
-            <ul class="navigation">
-                <li class="style-li">
-                    Sobre
-                    <span>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa suscipit, facilis sit debitis pariatur distinctio corporis ducimus atque porro nulla dicta regtr
-                    </span>
-                </li>
-                <li>Hobbies</li>
-                <li>Pets</li>
-                <li>Contatos</li>
-            </ul>
-        </aside>
-*/
 
 const btnMenu = document.getElementById('btn_menu')
 
 const mensagem = [
-    'Primeira mensagem',
-    'Segunda mensagem',
-    'Terceira mensagem',
-    'Quarta mensagem'
+    'Lesliet Marian Icer Chito, 16 anos, é de Cuba. Ela adora ler, maratonar séries, ver filmes e está sempre com uma playlist tocando suas músicas favoritas. Amante de Weezer, ela é uma pessoa incrível que deixa tudo ao seu redor muito mais especial',
+    'Lesliet adora ler e escreve super bem. Passa horas vendo filmes, séries, tiktoks, brincando com as cachorras e sendo foda na cozinha.',
+    `Lesliet tem duas cachorras que são uma fofura: <br> - Choe: Fofa, brincalhona e come pra caralho. Ela é um amorzinho <br>- Shenzi: Uma fofura mais de boa e desconfiada, mas adora fazer a Choe ficar brava só por diversão. <br>  Elas fazem a vida de Lesliet muito mais feliz`,
+    '<a href="https://www.instagram.com/tokyo.lp?igsh=MTViMmRlYnVnYW9uNg==" class=" w-6 hover:scale-110 transition-transform duration-200">Instagram</a>'
+]
+
+const title = [
+    'Sobre',
+    'Hobbies',
+    'Pets',
+    'Contato'
 ]
 
 const addMensage = (evt) => {
@@ -38,7 +30,7 @@ const addMensage = (evt) => {
     // Adiciona a mensagem ao item `li` clicado
     clickedLi.classList.add('style-li')
     clickedLi.innerHTML = `
-        Teste
+        ${title[id - 1]}
         <span>
             ${mensagem[id - 1]}
         </span>
