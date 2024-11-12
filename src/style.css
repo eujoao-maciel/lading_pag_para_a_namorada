@@ -123,7 +123,7 @@ section main a {
 
 section main a:hover {
     background-color: #fff;
-    color: red;
+    color: rgb(255, 0, 0);
 }
 
 section footer #social a img{

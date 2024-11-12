@@ -5,25 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page Para a Minha Namorada</title>
     <link href="./output.css" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">  
+    <link rel="stylesheet" href="./style.css"> 
+    <link rel="stylesheet" href="./media.css"> 
 </head>
 <body>
 
     <section class="w-screen h-screen flex flex-col items-center">
 
-        <header class="w-screen h-1/5 flex flex-col items-start p-5">
+        <header class="w-screen h-1/5 flex flex-col items-start p-5 sm:flex sm:flex-row sm:items-center">
             <h1 class="text-slate-50 text-3xl font-bold mb-2 text-start font-greatVibes">Para A Minha <br> Gatinha</h1>
-            <img id="btn_menu" class="w-5" src="../img/menu-flat-color-outline-icon-free-png.webp">
+            <img id="btn_menu" class="w-5 sm:ml-10" src="../img/menu-flat-color-outline-icon-free-png.webp">
+            <ul class="navigation hidden">
+                <li>Sobre</li>
+                <li>Hobbies</li>
+                <li>Pets</li>
+                <li>Contatos</li>
+            </ul>
         </header>
 
         <main class="w-screen h-4/5 flex flex-col items-start justify-center p-5">
-            <h2 class="text-2xl text-start text-slate-50 sm:text-4xl sm:font-bold mb-7 drop-shadow-md ">
+            <h2 class="text-2xl text-start text-slate-50 sm:text-5xl sm:font-bold mb-7 drop-shadow-md ">
                 Para Quem <br> Torna Tudo Melhor <br><span class=" text-4xl sm:text-5xl text-red-700"> Sempre</span>
             </h2>
 
-            <p class="text-slate-50 text-start mb-6">Essa página é dedicada pra uma garota incrível, que ama sem querer nada em troca, trata bem quem não merece e ainda consegue perdoar o que ninguém mais perdoaria. </p>
+            <p class="text-slate-50 text-start mb-6 sm:text-2xl sm:flex sm:flex-wrap sm:w-3/5">Essa página é dedicada pra uma garota incrível, que ama sem querer nada em troca, trata bem quem não merece e ainda consegue perdoar o que ninguém mais perdoaria. </p>
 
-            <a href="/src/pag.html" class="w-44 h-9 bg-red-600 rounded-full text-slate-50 font-bold hover:bg-slate-50 transition duration-300 text-center flex items-center justify-center">
+            <a href="./pag.html" class="w-44 h-9 bg-red-600 rounded-full text-slate-50 font-bold hover:bg-slate-50 transition duration-300 text-center flex items-center justify-center">
                 texto fofo
             </a>            
         </main>

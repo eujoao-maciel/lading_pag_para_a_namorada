@@ -1,0 +1,22 @@
+@media (min-width: 1588px) {
+    
+    
+    .navigation {
+        display: flex;
+        gap: 8rem;
+        margin-left: 700px;
+    }
+
+    .navigation li {
+        transition: 0.4s;
+    }
+
+    .navigation li:hover {
+        color: rgb(151, 0, 0);
+    }
+
+    #btn_menu {
+        display: none;
+        
+    }
+}
